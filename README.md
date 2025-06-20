@@ -1,4 +1,5 @@
 # JagadeeshTestFramework
+<<<<<<< HEAD
 
 Automation Test Suite for the [OrangeHRM](https://opensource-demo.orangehrmlive.com/) application using **Java**, **TestNG**, **Selenium WebDriver**, and **Log4j2**.
 
@@ -118,3 +119,6 @@ Let me know if you’d like:
 - ExtentReports integration
 
 Happy testing 🚀
+=======
+Automation Script of OrangeHRM site using TestNG framework , Java
+>>>>>>> 8822e76c1131aada32553ef38556b96fee271084
