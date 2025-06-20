@@ -1,0 +1,4 @@
+base\baseTest.class
+utils\reUsables.class
+utils\locators.class
+pages\loginPage.class

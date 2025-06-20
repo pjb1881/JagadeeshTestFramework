@@ -1,0 +1,70 @@
+2025-06-20 18:19:55,850 INFO b.baseTest [main] driver window maximized
+2025-06-20 18:19:58,563 INFO b.baseTest [main] navigated to url : https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-06-20 18:19:58,565 INFO t.LoginTest [main] INFO:testValidateLogin gona start
+2025-06-20 18:19:58,586 INFO t.LoginTest [main] INFO:current title of the page is : OrangeHRM and URl : https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-06-20 18:19:58,587 INFO p.loginPage [main] INFO: username xpath : By.xpath: //div[@class="oxd-input-group oxd-input-field-bottom-space"]/div/input[@name="username" and @placeholder="Username"]
+2025-06-20 18:19:59,233 INFO p.loginPage [main] INFO: user-name entered into user-names field
+2025-06-20 18:19:59,233 INFO t.LoginTest [main] INFO:entered UserName into the input field
+2025-06-20 18:19:59,233 INFO p.loginPage [main] INFO: Password xpath : By.xpath: //input[@name="password"]
+2025-06-20 18:19:59,329 INFO p.loginPage [main] INFO: Password entered into password field
+2025-06-20 18:19:59,329 INFO t.LoginTest [main] INFO: entered Password into the input field
+2025-06-20 18:19:59,329 INFO p.loginPage [main] INFO: Login button xpath : By.xpath: //button[@type="submit"]
+2025-06-20 18:20:00,486 INFO p.loginPage [main] INFO: Login button submitted
+2025-06-20 18:20:00,493 INFO t.LoginTest [main] SUCCESS: test completed and current page title is : OrangeHRM
+2025-06-20 18:20:00,640 INFO b.baseTest [main] SUCCESS: Driver was null, nothing to quit.
+2025-06-20 18:21:08,380 INFO b.baseTest [main] driver window maximized
+2025-06-20 18:21:10,971 INFO b.baseTest [main] navigated to url : https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-06-20 18:21:10,989 INFO t.LoginTest [main] INFO:testValidateLogin gona start
+2025-06-20 18:21:11,021 INFO t.LoginTest [main] INFO:current title of the page is : OrangeHRM and URl : https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-06-20 18:21:11,022 INFO p.loginPage [main] INFO: username xpath : By.xpath: //div[@class="oxd-input-group oxd-input-field-bottom-space"]/div/input[@name="username" and @placeholder="Username"]
+2025-06-20 18:21:11,657 INFO p.loginPage [main] INFO: user-name entered into user-names field
+2025-06-20 18:21:11,657 INFO t.LoginTest [main] INFO:entered UserName into the input field
+2025-06-20 18:21:11,657 INFO p.loginPage [main] INFO: Password xpath : By.xpath: //input[@name="password"]
+2025-06-20 18:21:11,760 INFO p.loginPage [main] INFO: Password entered into password field
+2025-06-20 18:21:11,760 INFO t.LoginTest [main] INFO: entered Password into the input field
+2025-06-20 18:21:11,760 INFO p.loginPage [main] INFO: Login button xpath : By.xpath: //button[@type="submit"]
+2025-06-20 18:21:12,979 INFO p.loginPage [main] INFO: Login button submitted
+2025-06-20 18:21:12,991 INFO t.LoginTest [main] SUCCESS: test completed and current page title is : OrangeHRM
+2025-06-20 18:21:13,160 INFO b.baseTest [main] SUCCESS: Driver was null, nothing to quit.
+2025-06-20 18:22:35,389 INFO b.baseTest [main] driver window maximized
+2025-06-20 18:22:38,032 INFO b.baseTest [main] navigated to url : https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-06-20 18:22:38,044 INFO t.LoginTest [main] testValidateLogin gona start
+2025-06-20 18:22:38,063 INFO t.LoginTest [main] current title of the page is : OrangeHRM and URl : https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-06-20 18:22:38,063 INFO p.loginPage [main]  username xpath : By.xpath: //div[@class="oxd-input-group oxd-input-field-bottom-space"]/div/input[@name="username" and @placeholder="Username"]
+2025-06-20 18:22:38,707 INFO p.loginPage [main]  user-name entered into user-names field
+2025-06-20 18:22:38,707 INFO t.LoginTest [main] entered UserName into the input field
+2025-06-20 18:22:38,707 INFO p.loginPage [main]  Password xpath : By.xpath: //input[@name="password"]
+2025-06-20 18:22:38,809 INFO p.loginPage [main]  Password entered into password field
+2025-06-20 18:22:38,809 INFO t.LoginTest [main] entered Password into the input field
+2025-06-20 18:22:38,809 INFO p.loginPage [main]  Login button xpath : By.xpath: //button[@type="submit"]
+2025-06-20 18:22:38,893 INFO p.loginPage [main]  Login button submitted
+2025-06-20 18:22:40,013 INFO t.LoginTest [main] SUCCESS: test completed and current page title is : OrangeHRM
+2025-06-20 18:22:40,151 INFO b.baseTest [main] SUCCESS: Driver was null, nothing to quit.
+2025-06-20 18:24:30,763 INFO b.baseTest [main] driver window maximized
+2025-06-20 18:24:33,094 INFO b.baseTest [main] navigated to url : https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-06-20 18:24:33,098 INFO t.LoginTest [main] testValidateLogin gona start
+2025-06-20 18:24:33,115 INFO t.LoginTest [main] current title of the page is : OrangeHRM and URl : https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-06-20 18:24:33,115 INFO p.loginPage [main]  username xpath : By.xpath: //div[@class="oxd-input-group oxd-input-field-bottom-space"]/div/input[@name="username" and @placeholder="Username"]
+2025-06-20 18:24:33,769 INFO p.loginPage [main]  user-name entered into user-names field
+2025-06-20 18:24:33,770 INFO t.LoginTest [main] entered UserName into the input field
+2025-06-20 18:24:33,770 INFO p.loginPage [main]  Password xpath : By.xpath: //input[@name="password"]
+2025-06-20 18:24:33,864 INFO p.loginPage [main]  Password entered into password field
+2025-06-20 18:24:33,864 INFO t.LoginTest [main] entered Password into the input field
+2025-06-20 18:24:33,864 INFO p.loginPage [main]  Login button xpath : By.xpath: //button[@type="submit"]
+2025-06-20 18:24:33,930 INFO p.loginPage [main]  Login button submitted
+2025-06-20 18:24:35,081 INFO t.LoginTest [main] SUCCESS: test completed and current page title is : OrangeHRM
+2025-06-20 18:24:35,244 INFO b.baseTest [main] SUCCESS: Driver was null, nothing to quit.
+2025-06-20 18:37:44,971 INFO b.baseTest [main] driver window maximized
+2025-06-20 18:37:47,665 INFO b.baseTest [main] navigated to url : https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-06-20 18:37:47,675 INFO t.LoginTest [main] testValidateLogin gona start
+2025-06-20 18:37:47,687 INFO t.LoginTest [main] current title of the page is : OrangeHRM and URl : https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-06-20 18:37:47,688 INFO p.loginPage [main]  username xpath : By.xpath: //div[@class="oxd-input-group oxd-input-field-bottom-space"]/div/input[@name="username" and @placeholder="Username"]
+2025-06-20 18:37:48,327 INFO p.loginPage [main]  user-name entered into user-names field
+2025-06-20 18:37:48,327 INFO t.LoginTest [main] entered UserName into the input field
+2025-06-20 18:37:48,327 INFO p.loginPage [main]  Password xpath : By.xpath: //input[@name="password"]
+2025-06-20 18:37:48,413 INFO p.loginPage [main]  Password entered into password field
+2025-06-20 18:37:48,413 INFO t.LoginTest [main] entered Password into the input field
+2025-06-20 18:37:48,413 INFO p.loginPage [main]  Login button xpath : By.xpath: //button[@type="submit"]
+2025-06-20 18:37:49,509 INFO p.loginPage [main]  Login button submitted
+2025-06-20 18:37:49,518 INFO t.LoginTest [main] SUCCESS: test completed and current page title is : OrangeHRM
+2025-06-20 18:37:49,667 INFO b.baseTest [main] SUCCESS: Driver was null, nothing to quit.
