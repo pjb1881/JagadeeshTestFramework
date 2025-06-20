@@ -1,5 +1,4 @@
 # JagadeeshTestFramework
-<<<<<<< HEAD
 
 Automation Test Suite for the [OrangeHRM](https://opensource-demo.orangehrmlive.com/) application using **Java**, **TestNG**, **Selenium WebDriver**, and **Log4j2**.
 
@@ -7,118 +6,86 @@ Automation Test Suite for the [OrangeHRM](https://opensource-demo.orangehrmlive.
 
 ## 📌 Overview
 
-This project implements a modular, maintainable automation framework using the TestNG testing framework. It uses Page Object Model (POM) design patterns for efficient UI interaction and follows industry best practices.
+This project implements a modular, maintainable automation framework using the TestNG testing framework. It uses the Page Object Model (POM) design pattern and follows industry best practices.
 
 ---
 
 ## 🛠 Tech Stack
 
-- **Java 8**
-- **TestNG**
-- **Selenium WebDriver**
-- **Maven** (build tool)
-- **Log4j2** (for logging)
-- **POM Design Pattern**
-- **Eclipse/IntelliJ**
+- Java 8  
+- TestNG  
+- Selenium WebDriver  
+- Maven  
+- Log4j2  
+- POM Design Pattern  
+- Eclipse / IntelliJ
 
 ---
 
 ## 📁 Project Structure
 
 JagadeeshTestFramework/
-│
 ├── src/
 │ ├── main/
 │ │ ├── java/
-│ │ │ ├── base/ # Base classes (e.g., WebDriver setup)
-│ │ │ ├── pages/ # Page classes for UI interactions (POM)
-│ │ │ └── utils/ # Reusable utility/helper methods
+│ │ │ ├── base/
+│ │ │ ├── pages/
+│ │ │ └── utils/
 │ │ └── resources/
-│ │ └── log4j2.xml # Log4j2 configuration
-│
-├── src/
+│ │ └── log4j2.xml
 │ ├── test/
 │ │ ├── java/
-│ │ │ └── tests/ # TestNG test classes
-│ │ └── resources/ # Test data or config (if any)
-│
-├── logs/ # Application logs
+│ │ │ └── tests/
+│ │ └── resources/
+├── logs/
 │ └── test.log
-│
-├── target/ # Maven compiled classes and reports
-│ └── surefire-reports/ # TestNG report output
-│
-├── test-output/ # TestNG HTML reports
-├── testng.xml # TestNG suite config
-├── pom.xml # Maven project file
-└── README.md # Project readme
-
+├── target/
+│ └── surefire-reports/
+├── test-output/
+├── testng.xml
+├── pom.xml
+└── README.md
 
 
 ---
 
 ## 🚀 How to Run
 
-### ✅ Prerequisites
+### From IDE
 
-- Java 1.8+
-- Maven installed and added to `PATH`
-- Chrome or other browser installed
-- IDE (Eclipse/IntelliJ)
+- Open the project in IntelliJ or Eclipse
+- Right-click `testng.xml` → Run as → TestNG Suite
 
-### 🧪 Run from IDE
-
-1. Open the project in Eclipse or IntelliJ
-2. Right-click `testng.xml` → Run as → TestNG Suite
-
-### 🧪 Run from CLI
+### From Terminal
 
 ```bash
 mvn clean test
 
-📋 Features Covered
-Login and Logout functionality
+---------------------------->
+📋 Features
+Login and Logout tests
 
 Dashboard validations
 
 Log capture using Log4j2
 
-Browser launching and teardown via BaseTest
+POM structure
 
-Modular test code using Page Object Model (POM)
+Clean browser setup and teardown
 
-📄 Logs & Reports
-Logs: Saved in logs/test.log
+📄 Reports & Logs
+Logs: logs/test.log
 
-Test Reports: Generated under:
+Reports:
 
-test-output/ (HTML reports from TestNG)
+test-output/ (TestNG HTML)
 
-target/surefire-reports/ (XML and console output)
-
-📎 To Do
-Integrate Extent Reports for enhanced test results
-
-Add data-driven testing using Excel or JSON
-
-Include CI/CD integration (e.g., GitHub Actions or Jenkins)
+target/surefire-reports/ (Console & XML)
 
 ✍️ Author
 Jagadeesh Bhaskar Parimi
-🔗 LinkedIn ->https://www.linkedin.com/in/jagadeesh-bhaskar-p-352373180/
+LinkedIn
 
 📜 License
-This project is open-source and available under the MIT License.
+Open-sourced under the MIT License
 
-
----
-
-Let me know if you’d like:
-- Badges (e.g., build passing, license)
-- GitHub Actions CI setup
-- ExtentReports integration
-
-Happy testing 🚀
-=======
-Automation Script of OrangeHRM site using TestNG framework , Java
->>>>>>> 8822e76c1131aada32553ef38556b96fee271084
