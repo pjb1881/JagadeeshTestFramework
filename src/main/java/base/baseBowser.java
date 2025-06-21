@@ -73,7 +73,9 @@ public class baseBowser {
 	@AfterTest
 	public void sleep() {
 		try {
-			Thread.sleep(5000);
+			int sleepCount = 5000;
+			Thread.sleep(sleepCount);
+			log.info("derver slept for :"+sleepCount +" ms");
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
