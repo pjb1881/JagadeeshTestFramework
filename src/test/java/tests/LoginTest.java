@@ -27,5 +27,8 @@ public class LoginTest extends baseTest {
 		Assert.assertEquals(currentTitle, "OrangeHRM");
 		log.info("SUCCESS: test completed and current page title is : "+currentTitle);
 	}
+	
+	
+	
 
 }

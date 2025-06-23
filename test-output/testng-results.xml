@@ -2,24 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-20T20:53:43 IST" name="LoginTests" finished-at="2025-06-20T20:53:56 IST" duration-ms="13240">
+  <suite started-at="2025-06-23T23:47:58 IST" name="Default suite" finished-at="2025-06-23T23:48:06 IST" duration-ms="7634">
     <groups>
     </groups>
-    <test started-at="2025-06-20T20:53:43 IST" name="LoginTest" finished-at="2025-06-20T20:53:56 IST" duration-ms="13240">
-      <class name="tests.LoginTest">
-        <test-method is-config="true" signature="driverSetUp()[pri:0, instance:tests.LoginTest@7c1e2a2d]" started-at="2025-06-20T20:53:43 IST" name="driverSetUp" finished-at="2025-06-20T20:53:53 IST" duration-ms="9423" status="PASS">
+    <test started-at="2025-06-23T23:47:58 IST" name="Default test" finished-at="2025-06-23T23:48:06 IST" duration-ms="7634">
+      <class name="tests.emailDemo">
+        <test-method signature="sendMail()[pri:0, instance:tests.emailDemo@349c1daf]" started-at="2025-06-23T23:47:58 IST" name="sendMail" finished-at="2025-06-23T23:48:06 IST" duration-ms="7564" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- driverSetUp -->
-        <test-method signature="testValidateLogin()[pri:0, instance:tests.LoginTest@7c1e2a2d]" started-at="2025-06-20T20:53:53 IST" name="testValidateLogin" finished-at="2025-06-20T20:53:56 IST" duration-ms="3225" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testValidateLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@7c1e2a2d]" started-at="2025-06-20T20:53:56 IST" name="tearDown" finished-at="2025-06-20T20:53:56 IST" duration-ms="510" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- tests.LoginTest -->
-    </test> <!-- LoginTest -->
-  </suite> <!-- LoginTests -->
+        </test-method> <!-- sendMail -->
+      </class> <!-- tests.emailDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

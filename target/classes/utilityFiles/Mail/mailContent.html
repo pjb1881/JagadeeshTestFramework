@@ -1,0 +1,60 @@
+String htmlContent = """
+<html>
+<head>
+  <style>
+    body { font-family: Arial, sans-serif; font-size: 14px; }
+    h2 { color: #00529B; }
+    table { border-collapse: collapse; width: 100%; margin-top: 10px; }
+    th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+    th { background-color: #f2f2f2; }
+    .success { color: green; }
+    .pending { color: orange; }
+    .fail { color: red; }
+  </style>
+</head>
+<body>
+  <h2>📝 Daily Status Report1 - ${java.time.LocalDate.now()}</h2>
+
+  <p>Hi <b>Manager</b>,</p>
+
+  <p>Here is the summary of today's work:</p>
+
+  <table>
+    <tr>
+      <th>Task</th>
+      <th>Status</th>
+      <th>Remarks</th>
+    </tr>
+    <tr>
+      <td>Feature Testing - Login Module</td>
+      <td class="success">Completed</td>
+      <td>Verified all scenarios</td>
+    </tr>
+    <tr>
+      <td>Bug Verification - VCE-10101</td>
+      <td class="success">Passed</td>
+      <td>Confirmed fix is effective</td>
+    </tr>
+    <tr>
+      <td>Automation Script Enhancement</td>
+      <td class="pending">In Progress</td>
+      <td>80% done, will continue tomorrow</td>
+    </tr>
+  </table>
+
+  <p><b>Blockers:</b> None</p>
+
+  <p>Regards,<br>
+    <b>Parimi Jagadeesh Bhaskar</b><br>
+    Associate Engineer, QE<br>
+    <b style="color: orange;">Inno</b><b style="color:blue;">minds</b><br>
+    Cell: +91 6309605699<br>
+    Landline: 040-46126300<br>
+    Email: <a href="mailto:jparimi@innominds.com">jparimi@innominds.com</a><br>
+    <a href="http://www.innominds.com">www.innominds.com</a></p>
+
+    <img src="C:\Users\jparimi\Desktop\Testing\MavenProjects\JagadeeshTestFramework\src\main\resources\utilityFiles\Mail\imgs\greatPlaceToWork.png" width="450"/>
+
+</body>
+</html>
+""";
