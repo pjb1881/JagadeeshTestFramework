@@ -21,7 +21,7 @@ public class emailDemo {
 	@Test
 	public void sendMail() throws MessagingException, IOException {
 		List<String> recipients = Arrays.asList("jparimi5@gmail.com", "nageswararaovallurupalli956@gmail.com",
-				"pandumalireddy@gmail.com", "amruthachowdary74328@gmail.com");
+				"amruthachowdary74328@gmail.com");
 		
 		String MailHsost = MailData.getCellValue("MailHost", "creds", "Value");
 		String MailPort = MailData.getCellValue("MailPort", "creds", "Value");
